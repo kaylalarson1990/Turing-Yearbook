@@ -5,14 +5,14 @@ html {
 
 body {
   background: url('https://ak9.picdn.net/shutterstock/videos/1007204479/thumb/1.jpg');
-  background-size: cover;
   background-attachment: fixed;
+  background-size: cover;
   position: absolute;
-  top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
   overflow: auto;
+  right: 0;
+  top: 0;
 }
 
 .App {
@@ -30,6 +30,11 @@ h2 {
   color: #6C9BED;
 }
 
+h3 {
+  color: #FF7A61;
+  margin: 0;
+}
+
 .yearbook-section {
   display: flex;
   flex-direction: row;
@@ -40,14 +45,24 @@ h2 {
 .yearbook-card {
   background: white;
   border-radius: 5px;
-  height: 350px;
-  margin: 20px;
-  width: 250px;
+  height: 450px;
+  margin: 10px;
+  width: 350px;
 }
 
 .images {
   border-radius: 5px;
-  height: 170px;
-  margin: 10px;
-  width: 170px;
+  height: 280px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  width: 250px;
+}
+
+.quotes {
+  font-style: italic;
+}
+
+.superlative {
+  color: #6C9BED;
+  font-weight: bold;
 }

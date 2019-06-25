@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Cohort from './Cohort';
 import Person from './Person';
 import people from '../data/yearbook-data.js';
 import './App.css';
@@ -30,7 +29,6 @@ class App extends Component {
       <h2>Staff</h2>
       </header>
       <div className="yearbook-section">
-      <Cohort />
       {yearbookInfo}
       </div>
       </div>
