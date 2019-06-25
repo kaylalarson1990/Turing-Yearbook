@@ -29,3 +29,25 @@ h2 {
 h2 {
   color: #6C9BED;
 }
+
+.yearbook-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.yearbook-card {
+  background: white;
+  border-radius: 5px;
+  height: 350px;
+  margin: 20px;
+  width: 250px;
+}
+
+.images {
+  border-radius: 5px;
+  height: 170px;
+  margin: 10px;
+  width: 170px;
+}

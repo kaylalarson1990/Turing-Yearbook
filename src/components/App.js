@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Cohort from './Cohort';
+import Person from './Person';
 import people from '../data/yearbook-data.js';
 import './App.css';
 
@@ -12,14 +13,26 @@ class App extends Component {
   }
 
   render() {
+    const yearbookInfo = this.state.staff.map(item => {
+      return <Person 
+        key={item.id}
+        image={item.photo}
+        name={item.name}
+        quote={item.quote}
+        superlative={item.superlative}
+      />
+    });
+
     return (
       <div className="App">
       <header className="App-header">
       <h1>Turing Yearbook</h1>
       <h2>Staff</h2>
       </header>
+      <div className="yearbook-section">
       <Cohort />
-        YOUR CODE GOES HERE
+      {yearbookInfo}
+      </div>
       </div>
     );
   }
