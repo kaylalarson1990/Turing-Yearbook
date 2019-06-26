@@ -1,7 +1,6 @@
 import React from 'react';
 // import './App.css';
 
-// PERSON COMPONENT CODE GOES HERE
 const Person = (props) => {
     return(
         <div className="yearbook-card">

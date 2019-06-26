@@ -101,3 +101,8 @@ h3 {
   color: #6C9BED;
   font-weight: bold;
 }
+
+span:hover {
+  color: #E6584A;
+  cursor: pointer;
+}
