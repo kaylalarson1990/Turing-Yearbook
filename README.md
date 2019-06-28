@@ -1,49 +1,23 @@
-# Turing Yearbook
+# Project Goals & Requirements:
 
-This application was built with `create-react-app`.
+Write squeaky clean, well refactored code using ES6 syntax.
+Learn to pass information between components using props.
+Learn to write readable JSX (your render methods/return statements should be clean and simple).
 
-### Set Up
+# Starting screen:
 
-Clone down this repo.
+<img width="1663" alt="Screen Shot 2019-06-28 at 8 56 18 AM" src="https://user-images.githubusercontent.com/37026730/60351380-e77c6c00-9982-11e9-8481-1f498ea0ca9f.png">
 
-Because you don't want to be pushing your updates to this boilerplate repository, we're going to have to do a few things to get set up with your own repository.
+# Add new student:
 
-1. On GitHub, create a new, empty repository and name it something like 'turing-yearbook'.
-2. Update the current remote (called "origin") so that it points at the URL of the repository you just created on GitHub. Read how to do this [here](https://help.github.com/en/articles/changing-a-remotes-url).
-3. Once you've updated the remote, you should run `npm install`, commit, and then push your initial commit to your personal repository. You will need to use the `-u` flag when you push (like this: `git push -u origin master`).
-4. Run `npm start` to start up your React server. (You will see errors!)
+<img width="1651" alt="Screen Shot 2019-06-28 at 8 56 27 AM" src="https://user-images.githubusercontent.com/37026730/60351401-f6fbb500-9982-11e9-97eb-c783624dc3e3.png">
 
-### Expectations / Rules
+<img width="523" alt="Screen Shot 2019-06-28 at 8 57 47 AM" src="https://user-images.githubusercontent.com/37026730/60351431-07ac2b00-9983-11e9-8566-ad6501c61543.png">
 
-Build a React App that displays Turing front-end staff!
+<img width="1607" alt="Screen Shot 2019-06-28 at 8 57 58 AM" src="https://user-images.githubusercontent.com/37026730/60351463-12ff5680-9983-11e9-9532-70fefeb6d5dd.png">
 
-![turing yearbook screenshot](https://raw.githubusercontent.com/turingschool-examples/yearbook/master/screenshot.png)
+# Toggle students and staff:
 
-We want to see good commit habits - atomic commits that log small, focused changesets.
+<img width="1652" alt="Screen Shot 2019-06-28 at 8 56 38 AM" src="https://user-images.githubusercontent.com/37026730/60351495-227e9f80-9983-11e9-859b-ea0a592c7f74.png">
 
-
-### Iteration 0
-
-Get set up (per the instructions above)!
-
-We've provided a boilerplate for you to work with. Look through the file structure to get a sense of the app.
-
-Notice that we have multiple stylesheets - one for each component. You are welcome to style this application however you'd like. We got you started with a little styling, but feel free to get creative. (Remember, though - most of your energy should be spent on learning React, not styling.)
-
-### Iteration 1
-
-Create a Cohort component, which will act as a container that renders each of our Person cards. For now, the Cohort being displayed will be "Staff". Figure out how to pass information from `App.js` to `Cohort.js`!
-
-### Iteration 2
-
-Create a Person component. Each Person card will display: the image, the name, the quote, and the superlative (see the screenshot above for an idea).
-
-In your Cohort component, create Person cards that have the information each needs to display properly.
-
-### Iteration 3 (extension - do not attempt until iterations 0 - 2 are completed)
-
-In the `yearbook-data.js` file, un-comment-out the "students" information. Get that information displaying, too. How can you reuse components?
-
-### Iteration 4 (extension - do not attempt until iterations 0 - 3 are completed)
-
-Create a controlled component that allows people to add a new student.
+<img width="1648" alt="Screen Shot 2019-06-28 at 8 56 46 AM" src="https://user-images.githubusercontent.com/37026730/60351499-24486300-9983-11e9-9e4e-2a04eb5bddff.png">
