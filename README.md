@@ -21,3 +21,15 @@ Learn to write readable JSX (your render methods/return statements should be cle
 <img width="1652" alt="Screen Shot 2019-06-28 at 8 56 38 AM" src="https://user-images.githubusercontent.com/37026730/60351495-227e9f80-9983-11e9-859b-ea0a592c7f74.png">
 
 <img width="1648" alt="Screen Shot 2019-06-28 at 8 56 46 AM" src="https://user-images.githubusercontent.com/37026730/60351499-24486300-9983-11e9-9e4e-2a04eb5bddff.png">
+
+# Fork This Repo
+Within your group, decide on one person to have the project repository (repo) on their GitHub account. Then, that person should "fork" this repo. On the top right corner of this page, click the Fork button.
+
+# Setup
+After one person has forked the repo, everyone should clone down the forked repo. Since you don't want to name your project "webpack-starter-kit", you can use an optional argument when you run git clone (you replace the [...] with the terminal command arguments):
+
+git clone [remote-address] [what you want to name the repo]
+Once you have cloned the repo, install the library dependencies. Run:
+
+npm install
+To verify that it is setup correctly, run npm start in your terminal. Go to http://localhost:8080/ and you should see a page with some h1 text and a pink background. If that's the case, you're good to go. Enter control + c in your terminal to stop the server at any time.
